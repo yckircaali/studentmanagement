@@ -21,7 +21,7 @@ class Student(object):
     def ogrenci_adi(self):
 		return self.ogrenci_adi
 
-	def getAverage(self):
+	def avg_score(self):
     	return sum(self.score) / len(self._score)
    
 class Sinif(object):
